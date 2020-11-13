@@ -4141,6 +4141,7 @@ blockquote {
   background:#d6e6de;
   font-size:16px;
   padding:20px 0;
+  margin-top:-20px;
 }
 .firstbar .brand .logo_mo{
   display: none;
