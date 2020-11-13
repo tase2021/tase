@@ -2884,14 +2884,17 @@ aside .ads figcaption {
 
   .firstbar {
     text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .firstbar .brand {
     float: none;
+    margin: 0px;
   }
   .firstbar .brand img {
     float: none;
     display: inline-block;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
   }
   .firstbar .brand h2 {
     display: block;
