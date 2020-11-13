@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="description" content="TASE 2021">
+		
+		
+		<title>Tase</title>
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="scripts/bootstrap/bootstrap.min.css">
+		<!-- IonIcons -->
+		<link rel="stylesheet" href="scripts/ionicons/css/ionicons.min.css">
+		<!-- Toast -->
+		<link rel="stylesheet" href="scripts/toast/jquery.toast.min.css">
+		<!-- OwlCarousel -->
+		<link rel="stylesheet" href="scripts/owlcarousel/dist/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="scripts/owlcarousel/dist/assets/owl.theme.default.min.css">
+		<!-- Magnific Popup -->
+		<link rel="stylesheet" href="scripts/magnific-popup/dist/magnific-popup.css">
+		<link rel="stylesheet" href="scripts/sweetalert/dist/sweetalert.css">
+		<!-- Custom style -->
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/skins/all.css">
+		<link rel="stylesheet" href="css/demo.css">
+		<style>
+			.group_img{
+				width: 100%;
+				margin:10px 0;
+			}
+		</style>
+	</head>
+
+	<body class=" skin-blue">
+		<header class="primary">
+			<div class="firstbar">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 col-sm-12 pd-0">
+							<div class="brand">
+								<a href="index.html">
+									<img class="logo_pc" src="images/banner.png" alt="Tase Logo" style="width: 100%;">
+									<img class="logo_mo" src="images/banner_phone.png" alt="Tase Logo" style="width: 100%;">
+								</a>
+							</div>						
+						</div>
+						<!-- <div class="col-md-6 col-sm-12">
+							<form class="search" autocomplete="off">
+								<div class="form-group">
+									<div class="input-group">
+										<input type="text" name="q" class="form-control" placeholder="Type something here">									
+										<div class="input-group-btn">
+											<button class="btn btn-primary"><i class="ion-search"></i></button>
+										</div>
+									</div>
+								</div>
+								<div class="help-block">
+									<div>Popular:</div>
+									<ul>
+										<li><a href="#">HTML5</a></li>
+										<li><a href="#">CSS3</a></li>
+										<li><a href="#">Bootstrap 3</a></li>
+										<li><a href="#">jQuery</a></li>
+										<li><a href="#">AnguarJS</a></li>
+									</ul>
+								</div>
+							</form>								
+						</div>
+						<div class="col-md-3 col-sm-12 text-right">
+							<ul class="nav-icons">
+								<li><a href="register.html"><i class="ion-person-add"></i><div>Register</div></a></li>
+								<li><a href="login.html"><i class="ion-person"></i><div>Login</div></a></li>
+							</ul>
+						</div> -->
+					</div>
+				</div>
+			</div>
+
+			<!-- Start nav -->
+			<nav class="menu">
+				<div class="container">
+					<div class="brand">
+						<a href="#">
+							<img src="images/logo.png" alt="Tase Logo">
+						</a>
+					</div>
+					<div class="mobile-toggle">
+						<a href="#" data-toggle="menu" data-target="#menu-list"><i class="ion-navicon-round"></i></a>
+					</div>
+					<div class="mobile-toggle">
+						<a href="#" data-toggle="sidebar" data-target="#sidebar"><i class="ion-ios-arrow-left"></i></a>
+					</div>
+					<div id="menu-list">
+						<ul class="nav-list">
+							<li class="for-tablet nav-title"><a>Menu</a></li>
+							<!-- <li class="for-tablet"><a href="login.html">Login</a></li>
+							<li class="for-tablet"><a href="register.html">Register</a></li> -->
+							<li><a href="index.html">Home</a></li>
+							<li class="dropdown magz-dropdown">
+								<a href="category.html">Committees <i class="ion-ios-arrow-right"></i></a>
+								<ul class="dropdown-menu">
+									<li><a href="c_chair.html">Chair</a></li>
+									<li><a href="c_pcm.html">PC members</a></li>
+									<li><a href="c_lorg.html">Local organization</a></li>
+								</ul>
+							</li>
+							<li class="dropdown magz-dropdown">
+								<a href="category.html">Paper Submission <i class="ion-ios-arrow-right"></i></a>
+								<ul class="dropdown-menu">
+									<li><a href="c_cfp.html">Call For Paper</a></li>
+									<li><a href="c_impd.html">Important Dates</a></li>
+									<li><a href="c_subins.html">Submisssion Instructions</a></li>
+								</ul>
+							</li>
+							<li class="dropdown magz-dropdown">
+								<a href="category.html">Program <i class="ion-ios-arrow-right"></i></a>
+								<ul class="dropdown-menu">
+									<li><a href="c_ltalk.html">Invited Talks</a></li>
+									<li><a href="c_ltut.html">Invited Tutorials</a></li>
+									<li><a href="c_ap.html">Accepted Papers</a></li>
+								</ul>
+							</li>
+							<li class="dropdown magz-dropdown">
+								<a href="category.html">Participation <i class="ion-ios-arrow-right"></i></a>
+								<ul class="dropdown-menu">
+									<li><a href="c_cs.html">Conference Schedule</a></li>
+									<li><a href="c_reg.html">Registration</a></li>
+									<li><a href="c_hotel.html">Hotel Reservation</a></li>
+									<li><a href="c_visa.html">Visa</a></li>
+									<li><a href="c_tinfo.html">Tourist Information</a></li>
+								</ul>
+							</li>
+							
+							<!-- <li class="dropdown magz-dropdown"><a href="#">Dropdown Icons <i class="ion-ios-arrow-right"></i></a>
+								<ul class="dropdown-menu">
+									<li><a href="#"><i class="icon ion-person"></i> My Account</a></li>
+									<li><a href="#"><i class="icon ion-heart"></i> Favorite</a></li>
+									<li><a href="#"><i class="icon ion-chatbox"></i> Comments</a></li>
+									<li><a href="#"><i class="icon ion-key"></i> Change Password</a></li>
+									<li><a href="#"><i class="icon ion-settings"></i> Settings</a></li>
+									<li class="divider"></li>
+									<li><a href="#"><i class="icon ion-log-out"></i> Logout</a></li>
+								</ul>
+							</li> -->
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<!-- End nav -->
+		</header>
+
+		<section class="page">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12 text-center page_header">
+						<strong>The 15th International Symposium on Theoretical Aspects of Software Engineering</strong><br>
+							August 25-27, 2021, Shanghai, China
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+	          <ol class="breadcrumb">
+				<li class="active">Participation</li>
+				<li >Tourist Information</li>
+	          </ol>
+						<h1 class="page-title">Tourist Information</h1>
+						<!-- <p class="page-subtitle">We will tell you who we are</p> -->
+						<div class="line thin"></div>
+						<div class="page-description">
+							<!-- <div class="row">
+								<div class="col-md-offset-4 col-md-4 col-sm-12">
+									<a href="#"><img src="images/content/topLogo.png" alt="杭州" style="width:100%;"></a>
+								</div>
+								
+							</div> -->
+							<h4>Visit ShanghHai</h4>
+							<article class="col-md-12 article-list">
+								<div class="inner">
+									<figure style="height:auto;">
+										<a href="single.html">
+											<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1605170774996&di=0bf77cde6b0a04a96827de0816c65f5e&imgtype=0&src=http%3A%2F%2Fbpic.588ku.com%2Felement_origin_min_pic%2F17%2F04%2F11%2F90d4b88b32a1552c0707e81908e13961.jpg" alt="Sample Article">
+										</a>
+									</figure>
+									<div class="details">
+										<p>Hangzhou, capital of Zhejiang Province in the east of China, is one of the most modern and prosperous cities in China. It sits at the southern end of the Grand Canal and is one of China's seven ancient national capitals.</p>
+										<p>To visit Hangzhou, you can directly fly to Hangzhou Xiaoshan International Airport from Pairs, Frankfurt, Copenhagen and some other cities (Click here to check the full list). It usually takes 40 minutes by taxi or bus to reach downtown. You can also use Shanghai Pudong International Airport to visit Hnagzhou, which can be connected to most of the main cities in the world. There are train (1 hour) and bus (2.5 hours) services from Pudong Airport to Hangzhou.</p>
+									</div>
+								</div>
+							</article>
+							<article class="article-list">
+								<!-- <h1 class="aside-title">Videos
+									<div class="carousel-nav" id="video-list-nav">
+										<div class="prev"><i class="ion-ios-arrow-left"></i></div>
+										<div class="next"><i class="ion-ios-arrow-right"></i></div>
+									</div>
+								</h1> -->
+								<div class="aside-body">
+									<!-- <ul class="video-list" data-youtube='"carousel":true, "nav": "#video-list-nav"'>
+										<li><a data-youtube-id="https://sei.ecnu.edu.cn/tase2020/static/video/Hangzhou_a.mp4" data-action="magnific"></a></li>
+										<li><a data-youtube-id="https://sei.ecnu.edu.cn/tase2020/static/video/Hangzhou_a.mp4" data-action="magnific"></a></li>
+										<li><a data-youtube-id="https://sei.ecnu.edu.cn/tase2020/static/video/Hangzhou_a.mp4" data-action="magnific"></a></li>
+									</ul> -->
+									<video  src="https://sei.ecnu.edu.cn/tase2020/static/video/Hangzhou_a.mp4" controls="" style="width:100%;">  
+									</video>
+									<div class="text-center">Play the video to discover the beauty of Hangzhou!</div>
+								</div>
+							</article>
+							<h4>the Bund  <a href="http://www.toxihu.com/webn/nWestlake.htm?type=EN" style="font-size: 14px;">Clik here to visit the official website</a></h4>
+							<div class="row article-list">
+								<div class="col-md-4 col-sm-12">
+									<img class="group_img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1605170909103&di=4246f6f17701812d10631374600ca16b&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Fsinacn%2F20171120%2F1014-fynwxum6939740.jpg" alt="杭州1">
+								</div>
+								<div class="col-md-4 col-sm-12">
+									<img class="group_img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1605170927340&di=35de275e76771472b5a690e2368d707b&imgtype=0&src=http%3A%2F%2Fimg.08087.cc%2Fuploads%2F20200207%2F12%2F1581049410-QhYoxPVisl.jpg" alt="杭州2">
+								</div>
+								<div class="col-md-4 col-sm-12">
+									<img class="group_img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1605170941003&di=7f761d4759717eb7fb1c5f787813568c&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Ffront%2F437%2Fw764h473%2F20181128%2FsMCB-hphsupx5150675.jpg" alt="杭州3">
+								</div>
+								<div class="col-md-12 col-sm-12">
+									<p>The West Lake Spring Dwan at Su Causeway Lingering Snow on the Broken Bridge</p>
+									<p>Located in Hangzhou, provincial seat of Zhejiang Province, the West Lake is one of the most famed tourist attractions in China. For centuries, the West Lake has been well known both for its picturesque landscape and for cultural heritage surviving yet illustrating the past dynasties. The landscape area of the West Lake includes the surrounding hills and nearby historical sites as well as the lake itself. The lake area covers around 60 square kilometers consisting of 5.68 square kilometers of water area.</p>
+								</div>
+								<div class="row">
+									<div class="col-md-4 col-sm-12">
+										<img class="group_img" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1954220969,3138617726&fm=26&gp=0.jpg" alt="杭州4">
+									</div>
+									<div class="col-md-4 col-sm-12">
+										<img class="group_img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1605170976444&di=f00feda96d19b6323912699b104d9803&imgtype=0&src=http%3A%2F%2Fimg1.qunarzz.com%2Ftravel%2Fd2%2F1511%2F77%2Fb6f59921dee96bf7.jpg_r_720x480x95_02994d09.jpg" alt="杭州5">
+									</div>
+									<div class="col-md-4 col-sm-12">
+										<img class="group_img" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3545225835,1028995441&fm=26&gp=0.jpg" alt="杭州6">
+									</div>
+								</div>
+								<div class="col-md-12 col-sm-12">
+									<p>Breeze-ruffled Lotus at Quyuan Garden Autumn Moon over the Calm Lake Leifeng Pagoda in Evening Glow</p>
+									<p>The West Lake is the centerpiece of the natural fascination with bluish hills on three sides, serene and charming. Along the Lake, there stand lines of willows with ancient bridges leaping over them. Mist now veils the whole landscape, now just perches lightly on the green and luxuriant hills in the vicinity with tiny streams winding in deep valleys. More than ninety theme parks and scenic spots are dotted around the lake area such as the Ten Views of West Lake and ten-odd newly named tourist attractions. Rain or shine, the West Lake holds great attraction to tourists in all seasons.</p>
+								</div>
+								<div class="row">
+									<div class="col-md-4 col-sm-12">
+										<img class="group_img" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3545225835,1028995441&fm=26&gp=0.jpg" alt="杭州7">
+									</div>
+									<div class="col-md-4 col-sm-12">
+										<img class="group_img" src="images/content/hangzhou8.jpg" alt="杭州8">
+									</div>
+									<div class="col-md-4 col-sm-12">
+										<img class="group_img" src="images/content/hangzhou9.jpg" alt="杭州9">
+									</div>
+								</div>
+								<div class="col-md-12 col-sm-12">
+									<p>Three Pools Mirroring the Moon Twin Peaks Piercing in Cloud Viewing Fish at Flower Pond</p>
+									<p>Besides its impressive scenery, the West Lake boasts of abundant cultural heritage and legends passed from generation to generation, commingling natural features, past personages, history, and art in the local area. Thanks to its long history and historic importance, the West Lake is also a cultural resort with 5 major historical monuments and cultural relics under state protection, 35 under province protection, 25 under municipal protection as well as 39 theme museums and cultural spots under a protection system. In the whole landscape area, there are more than one hundred scenic spots open to the tourists at present. Each year there are 0.5 million of foreign guests and 12 million domestic visitors coming to Hangzhou.</p>
+								</div>
+							</div>
+							<h4>Lingyin Temple <a href="http://en.lingyinsi.org/" style="font-size: 14px;">Clik here to visit the official website</a></h4>
+							<div class="row article-list">
+								<div class="col-md-4 col-sm-12">
+									<img class="group_img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1605171094032&di=9032b6413f7a99f437d53c7c4b2f97d5&imgtype=0&src=http%3A%2F%2F01.minipic.eastday.com%2F20170626%2F20170626150935_aeaf4e8d2ea3442e75ceb7378aab5d30_12.jpeg" alt="灵隐寺1">
+								</div>
+								<div class="col-md-4 col-sm-12">
+									<img class="group_img" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2643394183,1833912600&fm=26&gp=0.jpg" alt="灵隐寺2">
+								</div>
+								<div class="col-md-4 col-sm-12">
+									<img class="group_img" src="images/content/lingyin3.jpg" alt="灵隐寺3">
+								</div>
+								<div class="col-md-12 col-sm-12">
+									<p>Lingyin Temple, founded in 326AD, is regarded as the most recognized temple in Hangzhou with a long history of about 1,700 years. Situated at the west end of the West Lake, the temple is nested between Feilai Mountain and Beigao Mountain. Today, the section flanked by the two mountains is still the Buddhist and poetic destination as throughout history--massive trees, the old temple, dramtic clouds and mist.</p>
+									<p>Lingyin Temple covers an area of 130 mu, a central axis with Heavenly Kings Hall, the Mahavira Hall, Medicine Buddha Hall, and the Avatamska Hall. Other magnificant Monestary structures includes Zhizhi Hall (Dharma Hall), Huayan Hall, The Hall of Five Hundred Arhats, Jigong Shrine, Liandeng Pavilion, Huayan Pavillion, Great Compassion Pavillion, Abbot Quarters, etc. The Skanda (Weituo) Bodhisattava statue in the Hall of the Heavenly Kings dates back to the period of Tang Dynasty--engraved from 24 huge camphorwoods, 24.8m high with a dignified, majestic appearance.</p>
+									<p>Since the establishment of Lingyin Temple, eminent monks and scholars have flooded to this center for cultural gatherings in Buddhism, arts, literary, calligraphy, exchanges in Buddhist and Taoism, which presented the longstanding cultural heritage. In addition, many precious historical relics such as antique josses, instruments, Jingzhuang, stone pagodas, imperial stele, calligraphy and painting still exist in Lingyin Temple.</p>
+								</div>
+							</div>
+							<h4>Xixi National Wetland Park> <a href="http://en.xixisd.com/page/foreign_en/index.html" style="font-size: 14px;">Clik here to visit the official website</a></h4>
+							<div class="row article-list">
+								<div class="col-md-4 col-sm-12">
+									<img class="group_img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1605171094032&di=9032b6413f7a99f437d53c7c4b2f97d5&imgtype=0&src=http%3A%2F%2F01.minipic.eastday.com%2F20170626%2F20170626150935_aeaf4e8d2ea3442e75ceb7378aab5d30_12.jpeg" alt="灵隐寺1">
+								</div>
+								<div class="col-md-4 col-sm-12">
+									<img class="group_img" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2643394183,1833912600&fm=26&gp=0.jpg" alt="灵隐寺2">
+								</div>
+								<div class="col-md-4 col-sm-12">
+									<img class="group_img" src="images/content/lingyin3.jpg" alt="灵隐寺3">
+								</div>
+								<div class="col-md-12 col-sm-12">
+									<p>Xixi Wetland, well known for the wonderland-like landscape, is one of the Three "Xi's" along with Xihu (West Lake) and Xiling (the Seal Engravers' Society). Wildlife and beautiful landscapes of Natural wetland, together with its profound but unsophisticated culture, all have given a splendid and mysterious color to this ancient land.Xixi Wetland Park is a national wetland park which integrates urban wetland, farming wetland and cultural wetland. On November 03, 2009, it was listed on the list of important wetlands in the world.</p>
+								</div>
+							</div>
+							<h4>The Beijing-Hangzhou Grand Canal <a href="http://en.grandcanal.com.cn/" style="font-size: 14px;">Clik here to visit the official website</a></h4>
+							<div class="row article-list">
+								<div class="col-md-4 col-sm-12">
+									<img class="group_img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1605171094032&di=9032b6413f7a99f437d53c7c4b2f97d5&imgtype=0&src=http%3A%2F%2F01.minipic.eastday.com%2F20170626%2F20170626150935_aeaf4e8d2ea3442e75ceb7378aab5d30_12.jpeg" alt="灵隐寺1">
+								</div>
+								<div class="col-md-4 col-sm-12">
+									<img class="group_img" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2643394183,1833912600&fm=26&gp=0.jpg" alt="灵隐寺2">
+								</div>
+								<div class="col-md-4 col-sm-12">
+									<img class="group_img" src="images/content/lingyin3.jpg" alt="灵隐寺3">
+								</div>
+								<div class="col-md-12 col-sm-12">
+									<p>The Beijing-Hangzhou Grand Canal began in the Spring and Autumn Period and has a history of more than 2,500 years. The Grand Canal flows through Beijing, Tianjin, Hebei, Shandong, Jiangsu, and Zhejiang provinces. It has a total length of 1,794 kilometers and is the longest in the world. The largest and oldest artificial canal is a great project created by the working people of ancient China. It is an important and important human cultural heritage that has been alive and flowing.</p>
+									<p>The Beijing-Hangzhou Grand Canal (Hangzhou section) starts from Yuhang Tangqi in the north and Qiantang River in the south. It is about 39 kilometers long and runs through four districts of Yuhang, Gongshu, Xiacheng and Jianggan in Hangzhou. In 2002, the Hangzhou Municipal Party Committee and the Municipal Government officially launched the comprehensive improvement and protection development project of the Hangzhou section of the Grand Canal, and comprehensively upgraded the water quality, landscape, bridges, roads, ancient streets and ancient buildings of the canal. On both sides of the Beijing-Hangzhou Grand Canal (Hangzhou section), a cultural leisure experience corridor and a water tourism golden line with natural ecological landscape as the core axis, historical blocks, cultural parks, museum groups, temple ancestral halls and heritage sites as important nodes have been formed.</p>
+								</div>
+							</div>
+							<h4>The Archaeological Ruins of Liangzhu City <a href="http://www.lzmuseum.cn/" style="font-size: 14px;">Clik here to visit the official website</a></h4>
+							<div class="row article-list">
+								<div class="col-md-4 col-sm-12">
+									<img class="group_img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1605171094032&di=9032b6413f7a99f437d53c7c4b2f97d5&imgtype=0&src=http%3A%2F%2F01.minipic.eastday.com%2F20170626%2F20170626150935_aeaf4e8d2ea3442e75ceb7378aab5d30_12.jpeg" alt="灵隐寺1">
+								</div>
+								<div class="col-md-4 col-sm-12">
+									<img class="group_img" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2643394183,1833912600&fm=26&gp=0.jpg" alt="灵隐寺2">
+								</div>
+								<div class="col-md-4 col-sm-12">
+									<img class="group_img" src="images/content/lingyin3.jpg" alt="灵隐寺3">
+								</div>
+								<div class="col-md-12 col-sm-12">
+									<p>On July 6, 2019, the site of Liangzhu Ancient City was listed as "World Cultural Heritage".Liangzhu Culture is the last Neolithic jade culture in the Yangtze River Delta. Liangzhu Ancient City Site is an example of human early urban civilization, which demonstrates the 5000-year history of Chinese civilization. The success of the bid marks that the 5000-year history of Chinese civilization has been recognized by the international community.</p>
+								</div>
+							</div>
+							<h4>Enduring Memories of Hangzhou <a href="http://www.hzyxxh.com/show/index.htm" style="font-size: 14px;">Clik here to visit the official website</a></h4>
+							<div class="row article-list">
+								<div class="col-md-4 col-sm-12">
+									<img class="group_img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1605171094032&di=9032b6413f7a99f437d53c7c4b2f97d5&imgtype=0&src=http%3A%2F%2F01.minipic.eastday.com%2F20170626%2F20170626150935_aeaf4e8d2ea3442e75ceb7378aab5d30_12.jpeg" alt="灵隐寺1">
+								</div>
+								<div class="col-md-4 col-sm-12">
+									<img class="group_img" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2643394183,1833912600&fm=26&gp=0.jpg" alt="灵隐寺2">
+								</div>
+								<div class="col-md-4 col-sm-12">
+									<img class="group_img" src="images/content/lingyin3.jpg" alt="灵隐寺3">
+								</div>
+								<div class="col-md-12 col-sm-12">
+									<p>"Enduring Memories of Hangzhou" takes the history, culture and the beautiful natural scenery of the West Lake as a source of creativity. The title is taken from a poem by Bai Juyi (772-846). The 45-minute visual extravaganza highlights the city's rich cultural legacy as well as incorporated international elements that subtly reflect the state of today's globalization.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Start footer -->
+		<footer class="footer">
+			<div class="container">
+				<!-- <div class="row">
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="block">
+							<h1 class="block-title">Company Info</h1>
+							<div class="block-body">
+								<figure class="foot-logo">
+									<img src="images/logo-light.png" class="img-responsive" alt="Logo">
+								</figure>
+								<p class="brand-description">
+									Magz is a HTML5 &amp; CSS3 magazine template based on Bootstrap 3.
+								</p>
+								<a href="page.html" class="btn btn-magz white">About Us <i class="ion-ios-arrow-thin-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="block">
+							<h1 class="block-title">Popular Tags <div class="right"><a href="#">See All <i class="ion-ios-arrow-thin-right"></i></a></div></h1>
+							<div class="block-body">
+								<ul class="tags">
+									<li><a href="#">HTML5</a></li>
+									<li><a href="#">CSS3</a></li>
+									<li><a href="#">Bootstrap 3</a></li>
+									<li><a href="#">Web Design</a></li>
+									<li><a href="#">Creative Mind</a></li>
+									<li><a href="#">Standing On The Train</a></li>
+									<li><a href="#">at 6.00PM</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="line"></div>
+						<div class="block">
+							<h1 class="block-title">Newsletter</h1>
+							<div class="block-body">
+								<p>By subscribing you will receive new articles in your email.</p>
+								<form class="newsletter">
+									<div class="input-group">
+										<div class="input-group-addon">
+											<i class="ion-ios-email-outline"></i>
+										</div>
+										<input type="email" class="form-control email" placeholder="Your mail">
+									</div>
+									<button class="btn btn-primary btn-block white">Subscribe</button>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="block">
+							<h1 class="block-title">Latest News</h1>
+							<div class="block-body">
+								<article class="article-mini">
+									<div class="inner">
+										<figure>
+											<a href="single.html">
+												<img src="images/news/img12.jpg" alt="Sample Article">
+											</a>
+										</figure>
+										<div class="padding">
+											<h1><a href="single.html">Donec consequat lorem quis augue pharetra</a></h1>
+										</div>
+									</div>
+								</article>
+								<article class="article-mini">
+									<div class="inner">
+										<figure>
+											<a href="single.html">
+												<img src="images/news/img14.jpg" alt="Sample Article">
+											</a>
+										</figure>
+										<div class="padding">
+											<h1><a href="single.html">eu dapibus risus aliquam etiam ut venenatis</a></h1>
+										</div>
+									</div>
+								</article>
+								<article class="article-mini">
+									<div class="inner">
+										<figure>
+											<a href="single.html">
+												<img src="images/news/img15.jpg" alt="Sample Article">
+											</a>
+										</figure>
+										<div class="padding">
+											<h1><a href="single.html">Nulla facilisis odio quis gravida vestibulum </a></h1>
+										</div>
+									</div>
+								</article>
+								<article class="article-mini">
+									<div class="inner">
+										<figure>
+											<a href="single.html">
+												<img src="images/news/img16.jpg" alt="Sample Article">
+											</a>
+										</figure>
+										<div class="padding">
+											<h1><a href="single.html">Proin venenatis pellentesque arcu vitae </a></h1>
+										</div>
+									</div>
+								</article>
+								<a href="#" class="btn btn-magz white btn-block">See All <i class="ion-ios-arrow-thin-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-xs-12 col-sm-6">
+						<div class="block">
+							<h1 class="block-title">Follow Us</h1>
+							<div class="block-body">
+								<p>Follow us and stay in touch to get the latest news</p>
+								<ul class="social trp">
+									<li>
+										<a href="#" class="facebook">
+											<svg><rect width="0" height="0"/></svg>
+											<i class="ion-social-facebook"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="twitter">
+											<svg><rect width="0" height="0"/></svg>
+											<i class="ion-social-twitter-outline"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="youtube">
+											<svg><rect width="0" height="0"/></svg>
+											<i class="ion-social-youtube-outline"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="googleplus">
+											<svg><rect width="0" height="0"/></svg>
+											<i class="ion-social-googleplus"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="instagram">
+											<svg><rect width="0" height="0"/></svg>
+											<i class="ion-social-instagram-outline"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="tumblr">
+											<svg><rect width="0" height="0"/></svg>
+											<i class="ion-social-tumblr"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="dribbble">
+											<svg><rect width="0" height="0"/></svg>
+											<i class="ion-social-dribbble"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="linkedin">
+											<svg><rect width="0" height="0"/></svg>
+											<i class="ion-social-linkedin"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="skype">
+											<svg><rect width="0" height="0"/></svg>
+											<i class="ion-social-skype"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="rss">
+											<svg><rect width="0" height="0"/></svg>
+											<i class="ion-social-rss"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="line"></div>
+						<div class="block">
+							<div class="block-body no-margin">
+								<ul class="footer-nav-horizontal">
+									<li><a href="index.html">Home</a></li>
+									<li><a href="#">Partner</a></li>
+									<li><a href="contact.html">Contact</a></li>
+									<li><a href="page.html">About</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div> -->
+				<div class="row">
+					<div class="col-md-12">
+						<div class="copyright">
+							COPYRIGHT &copy; Tase 2021.
+							<!-- <div> <a href="http://www.baidu.com/" target="_blank" title="xxx">xxx</a>
+							</div> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End Footer -->
+
+		<!-- JS -->
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.migrate.js"></script>
+		<script src="scripts/bootstrap/bootstrap.min.js"></script>
+		<script>var $target_end=$(".best-of-the-week");</script>
+		<script src="scripts/jquery-number/jquery.number.min.js"></script>
+		<script src="scripts/owlcarousel/dist/owl.carousel.min.js"></script>
+		<script src="scripts/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+		<script src="scripts/easescroll/jquery.easeScroll.js"></script>
+		<script src="scripts/sweetalert/dist/sweetalert.min.js"></script>
+		<script src="scripts/toast/jquery.toast.min.js"></script>
+		<script src="js/demo.js"></script>
+		<script src="js/e-magz.js"></script>
+	</body>
+</html>
