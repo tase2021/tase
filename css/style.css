@@ -2215,7 +2215,7 @@ section .container {
   width: 100%;
 }
 .article-list .details {
-  padding: 5px;
+  padding: 5px 0px;
   margin-left: 315px;
 }
 .article-list .details .detail .category, .article-list .details .detail .time {
