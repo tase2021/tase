@@ -1,0 +1,731 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+VERSION:2.0
+X-WR-CALNAME:TASE2021OnlineProgram
+PRODID:-//Apple Inc.//macOS 11.5.1//EN
+X-APPLE-CALENDAR-COLOR:#711A76
+X-WR-TIMEZONE:Asia/Shanghai
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Shanghai
+BEGIN:STANDARD
+TZOFFSETFROM:+0900
+RRULE:FREQ=YEARLY;UNTIL=19910914T170000Z;BYMONTH=9;BYDAY=3SU
+DTSTART:19890917T020000
+TZNAME:GMT+8
+TZOFFSETTO:+0800
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0800
+DTSTART:19910414T020000
+TZNAME:GMT+8
+TZOFFSETTO:+0900
+RDATE:19910414T020000
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=zh-cn:Session 1: Program Analysis I
+PRIORITY:5
+CLASS:PUBLIC
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2
+ //EN">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Serv
+ er version 08.01.0240.003">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Conv
+ erted from text/rtf format -->\n\n<P DIR=LTR ALIGN=JUSTIFY><SPAN LANG="e
+ n-us"><B></B></SPAN><SPAN LANG="en-us"><B><FONT COLOR="#000000" FACE="Ti
+ mes New Roman">Session Chair: Qin Li (ECNU)</FONT></B></SPAN><SPAN LANG=
+ "en-us"></SPAN></P>\n\n</BODY>\n</HTML>
+TRANSP:OPAQUE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MS-OLK-CONFTYPE:0
+UID:040000008200E00074C5B7101A82E008000000004037AF23A18BD701000000000000
+ 000010000000F0A041A21DB5284D917E77CDC805CF2A
+DTSTART;TZID=Asia/Shanghai:20210825T103000
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE=On line:geo:23.395867,113.
+ 223581
+SEQUENCE:0
+CONFERENCE;VALUE=URI:https://univ-cotedazur.zoom.us/j/88590353532?pwd=Rk
+ 9CT1RXWUFJUHhlMDJRSXVJWWUyQT09
+LOCATION:On line
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+DTSTAMP:20210807T082348Z
+LAST-MODIFIED:20210809T000936Z
+CREATED:20210807T073002Z
+URL;VALUE=URI:
+DTEND;TZID=Asia/Shanghai:20210825T120000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DESCRIPTION:Session Chair: Qin Li (ECNU)\n\nJoin Zoom Meeting\nhttps://u
+ niv-cotedazur.zoom.us/j/88590353532?pwd=Rk9CT1RXWUFJUHhlMDJRSXVJWWUyQT09
+ \n\nMeeting ID: 885 9035 3532\nPasscode: 472323\n\n10:30-11:00\nA wp Cha
+ racterization of Jump Statements\nWei Chen\n11:00-11:30\nBehind Clint an
+ d Hoare's goto Proof Rule\nWei Chen\n11:30-12:00\nA Proof System for HRM
+ L with Extended Hoare Logic\nNingning Chen\, Huibiao Zhu and Huixing Fan
+ g\n
+BEGIN:VALARM
+X-WR-ALARMUID:06D074A8-C0B9-4D0E-B3EE-5630F5974FD9
+UID:06D074A8-C0B9-4D0E-B3EE-5630F5974FD9
+TRIGGER:-PT15M
+X-APPLE-DEFAULT-ALARM:TRUE
+ATTACH;VALUE=URI:Chord
+ACTION:AUDIO
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:2A750D43-8859-4505-B101-C23A4992F6E9
+UID:2A750D43-8859-4505-B101-C23A4992F6E9
+TRIGGER:-PT15M
+DESCRIPTION:Reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=zh-cn:Keynote I 
+PRIORITY:5
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2
+ //EN">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Serv
+ er version 08.01.0240.003">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Conv
+ erted from text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="en-us"><B></B><
+ /SPAN><SPAN LANG="en-us"><B><FONT COLOR="#000000" FACE="Times New Roman"
+ >Session Chair: Kazuhiro Ogata (JAIST)</FONT></B></SPAN></P>\n\n<P DIR=L
+ TR><SPAN LANG="en-us"><B><I></I></B></SPAN><SPAN LANG="en-us"><B><I><FON
+ T COLOR="#365F91" FACE="Times New Roman">Program Verification: a 70+-Yea
+ r History</FONT></I></B></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><B>
+ <FONT COLOR="#484848" FACE="Arial">Moshe Y. Vardi (Rice</FONT> <FONT COL
+ OR="#484848" FACE="Arial">University\, USA)</FONT></B></SPAN></P>\n\n<P 
+ DIR=LTR ALIGN=JUSTIFY><SPAN LANG="en-us"></SPAN></P>\n\n</BODY>\n</HTML>
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+UID:040000008200E00074C5B7101A82E00800000000C0C21115A18BD701000000000000
+ 0000100000009C3576996A45C74394F5E4084A2BB69D
+DTSTART;TZID=Asia/Shanghai:20210825T090000
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE=On line:geo:23.395867,113.
+ 223581
+SEQUENCE:0
+LOCATION:On line
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+DTSTAMP:20210807T082348Z
+LAST-MODIFIED:20210809T001136Z
+CREATED:20210807T072924Z
+URL;VALUE=URI:
+DTEND;TZID=Asia/Shanghai:20210825T100000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DESCRIPTION:Session Chair: Kazuhiro Ogata (JAIST)\nProgram Verification:
+  a 70+-Year History\nMoshe Y. Vardi (Rice University\, USA)\n\nTitle:Pro
+ gram Verification: a 70+-Year History\n\nAbstract:\nThe year 2019 sees t
+ he 70th anniversary to Alan Turing's 1949 paper\, "Checking a Large Rout
+ ine" and the 50th anniversary of Tony Hoare's paper\, "An Axiomatic Basi
+ s for Compuer Programming". In the latter paper\, Hoare stated: "When th
+ e correctness of a program\, its compiler\, and the hardware of the comp
+ uter have all been established with mathematical certainty\, it will be 
+ possible to place great reliance on the results of the program\, and pre
+ dict their properties with a confidence limited only by the reliability 
+ of the electronics."\nIn this talk\, I will review the history of this v
+ ision\, describing the obstacles\, the controversies\, and progress mile
+ stones. I will conclude with the description of both impressive progress
+  and dramatic failures exhibited over the past few years.\n\nBiography:\
+ nMoshe Y. Vardi is University Professor and the George Distinguished Ser
+ vice Professor in Computational Engineering at Rice University. He is th
+ e recipient of several awards\, including the ACM SIGACT Goedel Prize\, 
+ the ACM Kanellakis Award\, the ACM SIGMOD Codd Award\, the Knuth Prize\,
+  the IEEE Computer Society Goode Award\, and the EATCS Distinguished Ach
+ ievements Award. He is the author and co-author of over 650 papers\, as 
+ well as two books. He is a Guggenheim Fellows as well as fellow of sever
+ al societies\, and a member of several academies\, including the US Nati
+ onal Academy of Engineering and National Academy of Science. He holds se
+ ven honorary doctorates. He is a Senior Editor of the Communications of 
+ the ACM\, the premier publication in computing.\n
+BEGIN:VALARM
+X-WR-ALARMUID:092FBAD8-E9DB-4BC8-BF45-40B4521C27E4
+UID:092FBAD8-E9DB-4BC8-BF45-40B4521C27E4
+TRIGGER:-PT15M
+X-APPLE-DEFAULT-ALARM:TRUE
+ATTACH;VALUE=URI:Chord
+ACTION:AUDIO
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:49CF7B08-25C2-40C8-BB18-82BE7CE40946
+UID:49CF7B08-25C2-40C8-BB18-82BE7CE40946
+TRIGGER:-PT15M
+DESCRIPTION:Reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=zh-cn:Session 5: Model Checking and Logics
+PRIORITY:5
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2
+ //EN">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Serv
+ er version 08.01.0240.003">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Conv
+ erted from text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="en-us"><B></B><
+ /SPAN><SPAN LANG="en-us"><B><FONT COLOR="#000000" FACE="Times New Roman"
+ >Session Chair: Wenhui Zhang (ISCAS)</FONT></B></SPAN></P>\n\n<P DIR=LTR
+  ALIGN=JUSTIFY><SPAN LANG="en-us"></SPAN></P>\n\n</BODY>\n</HTML>
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+UID:040000008200E00074C5B7101A82E0080000000070214CA3A18BD701000000000000
+ 000010000000FBCF9B5850530C4B942ED85060698A0D
+DTSTART;TZID=Asia/Shanghai:20210826T140000
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE=On line:geo:23.395867,113.
+ 223581
+SEQUENCE:0
+CONFERENCE;VALUE=URI:https://univ-cotedazur.zoom.us/j/88590353532?pwd=Rk
+ 9CT1RXWUFJUHhlMDJRSXVJWWUyQT09
+LOCATION:On line
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+DTSTAMP:20210807T082348Z
+LAST-MODIFIED:20210809T001052Z
+CREATED:20210807T073327Z
+DTEND;TZID=Asia/Shanghai:20210826T153000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DESCRIPTION:Session Chair: Wenhui Zhang (ISCAS)\n\nJoin Zoom Meeting\nht
+ tps://univ-cotedazur.zoom.us/j/88590353532?pwd=Rk9CT1RXWUFJUHhlMDJRSXVJW
+ WUyQT09\n\nMeeting ID: 885 9035 3532\nPasscode: 472323\n\n	\n14:00-14:30
+ \nPetri Net Based CTL Model Checking: Using a New Method to Construct OB
+ DD Variable Order\nLeifeng He and Guanjun Liu\n14:30-15:00 Featured Game
+ s\nUli Fahrenberg and Axel Legay\n15:00-15:30 On a specification theory 
+ for fuzzy modal logic\nManisha Jain\, Leandro Gomes\, Alexandre Madeira 
+ and Luís Soares Barbosa\n
+BEGIN:VALARM
+X-WR-ALARMUID:72543942-6111-43A8-9098-B40EF040D146
+UID:72543942-6111-43A8-9098-B40EF040D146
+TRIGGER:-PT15M
+X-APPLE-DEFAULT-ALARM:TRUE
+ATTACH;VALUE=URI:Chord
+ACTION:AUDIO
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:4A48E9FA-9170-404C-8091-EBCD6B86D3FC
+UID:4A48E9FA-9170-404C-8091-EBCD6B86D3FC
+TRIGGER:-PT15M
+DESCRIPTION:Reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=zh-cn:Keynote III
+PRIORITY:5
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2
+ //EN">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Serv
+ er version 08.01.0240.003">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Conv
+ erted from text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="en-us"><B></B><
+ /SPAN><SPAN LANG="en-us"><B><FONT COLOR="#000000" FACE="Times New Roman"
+ >Session Chair: Mingsong Chen (ECNU)</FONT></B></SPAN></P>\n\n<P DIR=LTR
+ ><SPAN LANG="en-us"><B><I></I></B></SPAN><SPAN LANG="en-us"><B><I><FONT 
+ COLOR="#365F91" FACE="Times New Roman">The Research and Practice of Cont
+ ainers System</FONT></I></B></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"
+ ><B><FONT COLOR="#484848" FACE="Arial">Hai Jin (Huazhong University of S
+ cience and Technology\, CN)</FONT></B></SPAN><SPAN LANG="en-us"></SPAN><
+ SPAN LANG="en-us"></SPAN></P>\n\n<P DIR=LTR ALIGN=JUSTIFY><SPAN LANG="en
+ -us"></SPAN></P>\n\n</BODY>\n</HTML>
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+UID:040000008200E00074C5B7101A82E00800000000408F51C9A18BD701000000000000
+ 0000100000008B117C0B41772C4AB1ADA053301FED32
+DTSTART;TZID=Asia/Shanghai:20210827T090000
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE=On line:geo:23.395867,113.
+ 223581
+SEQUENCE:0
+CONFERENCE;VALUE=URI:https://univ-cotedazur.zoom.us/j/88590353532?pwd=Rk
+ 9CT1RXWUFJUHhlMDJRSXVJWWUyQT09
+LOCATION:On line
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+DTSTAMP:20210807T082348Z
+LAST-MODIFIED:20210809T001159Z
+CREATED:20210807T073440Z
+DTEND;TZID=Asia/Shanghai:20210827T100000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DESCRIPTION:Session Chair: Mingsong Chen (ECNU)\nThe Research and Practi
+ ce of Containers System\nHai Jin (Huazhong University of Science and Tec
+ hnology\, CN)\n\nJoin Zoom Meeting\nhttps://univ-cotedazur.zoom.us/j/885
+ 90353532?pwd=Rk9CT1RXWUFJUHhlMDJRSXVJWWUyQT09\n\nMeeting ID: 885 9035 35
+ 32\nPasscode: 472323\n\nTitle:The Research and Practice of Containers Sy
+ stem\n\nAbstract:\nContainer technology has been widely used in various 
+ real-world situations\, like cloud platforms\, CI/CD\, and DevOps. By en
+ abling a layered image system and OS-level virtualization\, container te
+ chnology can provide agile deployment and isolate execution environment 
+ for applications. However\, existing container systems fail to support c
+ ontainers efficiently\, flexibly\, and securely. On the one hand\, coars
+ e-grained image management makes the deployment and update of applicatio
+ ns time-consuming when the corresponding images need to be delivered in 
+ network. On the other hand\, shared OS kernel may arise resource content
+ ion and flexibility and security issues. This talk shows our research an
+ d practice of container systems. Specifically\, I will introduce approac
+ hes of image management for fast container deployment and OS Kernel isol
+ ation for secure and high-performance container execution environment.\n
+ \nBiography:\nHai Jin is a Cheung Kung Scholars Chair Professor of compu
+ ter science and engineering at Huazhong University of Science and Techno
+ logy (HUST) in China. Jin received his PhD in computer engineering from 
+ HUST in 1994. In 1996\, he was awarded a German Academic Exchange Servic
+ e fellowship to visit the Technical University of Chemnitz in Germany. J
+ in worked at The University of Hong Kong between 1998 and 2000\, and as 
+ a visiting scholar at the University of Southern California between 1999
+  and 2000. He was awarded Excellent Youth Award from the National Scienc
+ e Foundation of China in 2001. Jin is the chief scientist of National 97
+ 3 Basic Research Program Project of Virtualization Technology of Computi
+ ng System\, and Cloud Security. Jin is a Fellow of IEEE\, Fellow of CCF\
+ , and a life member of the ACM. He has co-authored more than 20 books an
+ d published over 900 research papers. His research interests include com
+ puter architecture\, virtualization technology\, cluster computing and c
+ loud computing\, peer-to-peer computing\, network storage\, and network 
+ security.
+BEGIN:VALARM
+X-WR-ALARMUID:F703FDC6-4120-4666-AB63-FD9842209325
+UID:F703FDC6-4120-4666-AB63-FD9842209325
+TRIGGER:-PT15M
+X-APPLE-DEFAULT-ALARM:TRUE
+ATTACH;VALUE=URI:Chord
+ACTION:AUDIO
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:5574B7B8-B0F0-4D7C-93A0-20A98290815F
+UID:5574B7B8-B0F0-4D7C-93A0-20A98290815F
+TRIGGER:-PT15M
+DESCRIPTION:Reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=zh-cn:Keynote II 
+PRIORITY:5
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2
+ //EN">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Serv
+ er version 08.01.0240.003">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Conv
+ erted from text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="en-us"><B></B><
+ /SPAN><SPAN LANG="en-us"><B><FONT COLOR="#000000" FACE="Times New Roman"
+ >Session Chair: Huibiao Zhu (ECNU)</FONT></B></SPAN></P>\n\n<P DIR=LTR><
+ SPAN LANG="en-us"><B><I></I></B></SPAN><SPAN LANG="en-us"><B><I><FONT CO
+ LOR="#365F91" FACE="Times New Roman">Advances of Proof Scores in CafeOBJ
+ </FONT></I></B></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><B></B></SPA
+ N><B><SPAN LANG="fr"></SPAN><SPAN LANG="fr"><FONT COLOR="#484848" FACE="
+ Arial">Kokichi Futatsugi (JAIST\, JP)</FONT></SPAN></B></P>\n\n<P DIR=LT
+ R ALIGN=JUSTIFY><SPAN LANG="en-us"></SPAN></P>\n\n</BODY>\n</HTML>
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+UID:040000008200E00074C5B7101A82E00800000000202EA880A18BD701000000000000
+ 000010000000733F5EDA41B08448A6B99D7F23F62CFC
+DTSTART;TZID=Asia/Shanghai:20210826T090000
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE=On line:geo:23.395867,113.
+ 223581
+SEQUENCE:0
+CONFERENCE;VALUE=URI:https://univ-cotedazur.zoom.us/j/88590353532?pwd=Rk
+ 9CT1RXWUFJUHhlMDJRSXVJWWUyQT09
+LOCATION:On line
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+DTSTAMP:20210807T082348Z
+LAST-MODIFIED:20210809T001148Z
+CREATED:20210807T073231Z
+DTEND;TZID=Asia/Shanghai:20210826T100000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DESCRIPTION:Session Chair: Huibiao Zhu (ECNU)\nAdvances of Proof Scores 
+ in CafeOBJ\nKokichi Futatsugi (JAIST\, JP)\n\nJoin Zoom Meeting\nhttps:/
+ /univ-cotedazur.zoom.us/j/88590353532?pwd=Rk9CT1RXWUFJUHhlMDJRSXVJWWUyQT
+ 09\n\nMeeting ID: 885 9035 3532\nPasscode: 472323\n\nTitle:Advances of P
+ roof Scores in CafeOBJ\n\nAbstract:\nCritical flaws continue to exist at
+  the level of domain\, requirement\, and/or design specification\, and s
+ pecification verification\, i.e.\, to prove a specification has desirabl
+ e properties\, is still one of the most important challenges in software
+  engineering.\nCafeOBJ is an executable algebraic specification language
+  system that can be used for specification verification by writing proof
+  scores. Domain/requirement/design engineers using CafeOBJ are expected 
+ to construct proof scores for getting reliable specifications. CafeOBJ i
+ s a sister language of OBJ and proof scores have been brought up by the 
+ OBJ/CafeOBJ community.\nSpecification verification is theorem proving wh
+ ere the specification is a set of axioms and the desirable properties ar
+ e theorems. Fully automatic theorem proving often fails to convey an und
+ erstanding of proof\, and one should seek to make optimal use of the res
+ pective abilities of humans and computers\, so that computers do the ted
+ ious formal calculations\, and humans do the high level planning. Proof 
+ scores intend to meet these goals by hiding the detailed calculations do
+ ne by machines while revealing the proof plan created by humans.\nThis t
+ alk explains advances of proof scores for specification verification in 
+ CafeOBJ.\n\nBiography:\nKokichi Futatsugi is a Professor Emeritus at Jap
+ an Advanced Institute of Science and Technology (JAIST)\, Nomi\, Ishikaw
+ a\, Japan. He worked for JAIST from 1993 to 2017 as a Professor\, a Dean
+  of School\, an Adviser of President\, and a Specially Assigned Professo
+ r. Before getting a professorship at JAIST\, he worked for Electrotechni
+ cal Laboratory (ETL\, the national research institute for electronics an
+ d informatics) from 1975 to 1993 as a Researcher\, a Section Chief\, and
+  a Chief Researcher of Institute. He worked for SRI International (Stanf
+ ord Research Institute) in California as an International Fellow from 19
+ 83 to 1984 and designed and implemented OBJ algebraic specification lang
+ uage system. From around mid nineties he headed several research project
+ s funded by Japanese Government for developing CafeOBJ algebraic specifi
+ cation language system. Professor Futatsugi served for many internationa
+ l scholarly activities including a Program Committee Chair of 20th Inter
+ national Conference of Software Engineering (ICSE 1998) and an Associate
+  Editor of ACM Transactions of Software Engineering and Methodology (TOS
+ EM) from 1995 to 2002. He is an Honorary Member of Japan Society of Soft
+ ware Science and Technology since 2019.
+BEGIN:VALARM
+X-WR-ALARMUID:7CDEB3A1-BAD2-4EA8-87ED-646917099D38
+UID:7CDEB3A1-BAD2-4EA8-87ED-646917099D38
+TRIGGER:-PT15M
+X-APPLE-DEFAULT-ALARM:TRUE
+ATTACH;VALUE=URI:Chord
+ACTION:AUDIO
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:6A65F6D5-F71C-4808-9DEB-16D6760B44EC
+UID:6A65F6D5-F71C-4808-9DEB-16D6760B44EC
+TRIGGER:-PT15M
+DESCRIPTION:Reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=zh-cn:Session 7: System modeling and verification II
+PRIORITY:5
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2
+ //EN">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Serv
+ er version 08.01.0240.003">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Conv
+ erted from text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="en-us"><B></B><
+ /SPAN><SPAN LANG="en-us"><B><FONT COLOR="#000000" FACE="Times New Roman"
+ >Session Chair: Min Zhang (ECNU)</FONT></B></SPAN></P>\n\n<P DIR=LTR ALI
+ GN=JUSTIFY><SPAN LANG="en-us"></SPAN></P>\n\n</BODY>\n</HTML>
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+UID:040000008200E00074C5B7101A82E0080000000080851EE4A18BD701000000000000
+ 000010000000C1908FF45F72AF468400B133EF304E5B
+DTSTART;TZID=Asia/Shanghai:20210827T103000
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE=On line:geo:23.395867,113.
+ 223581
+SEQUENCE:0
+CONFERENCE;VALUE=URI:https://univ-cotedazur.zoom.us/j/88590353532?pwd=Rk
+ 9CT1RXWUFJUHhlMDJRSXVJWWUyQT09
+LOCATION:On line
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+DTSTAMP:20210807T082348Z
+LAST-MODIFIED:20210809T001111Z
+CREATED:20210807T073532Z
+DTEND;TZID=Asia/Shanghai:20210827T120000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DESCRIPTION:Session Chair: Min Zhang (ECNU)\n\nJoin Zoom Meeting\nhttps:
+ //univ-cotedazur.zoom.us/j/88590353532?pwd=Rk9CT1RXWUFJUHhlMDJRSXVJWWUyQ
+ T09\n\nMeeting ID: 885 9035 3532\nPasscode: 472323\n\n10:30-11:00\nA Par
+ allel Implementation Of Liveness On Knowledge Graphs Under Label Constra
+ ints\nQunhao Sha\, Qizhe Yang and Guoqiang Li\n11:00-11:30\nExploring De
+ sign Alternatives for Replicated RAMP Transactions Using Maude\nLei Lian
+ g and Si Liu\n11:30-12:00\nA Character-Level Convolutional Neural Networ
+ k for Predicting Exploitability of Vulnerability\nJinghui Lv\, Yude Bai\
+ , Zhenchang Xing\, Xiaohong Li and Weimin Ge\n12:00-12:30\nFormal Modell
+ ing and Verification of the RTPS Behavior Module\nJiaqi Yin\, Huibiao Zh
+ u\, Yuan Fei and Qiwen Xu\n
+BEGIN:VALARM
+X-WR-ALARMUID:367D38BB-1657-477E-900C-621DB0640B2F
+UID:367D38BB-1657-477E-900C-621DB0640B2F
+TRIGGER:-PT15M
+X-APPLE-DEFAULT-ALARM:TRUE
+ATTACH;VALUE=URI:Chord
+ACTION:AUDIO
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:2A7CD7F9-1C38-4241-9646-20144410DD2B
+UID:2A7CD7F9-1C38-4241-9646-20144410DD2B
+TRIGGER:-PT15M
+DESCRIPTION:Reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=zh-cn:Session 4: Real-Time Verification
+PRIORITY:5
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2
+ //EN">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Serv
+ er version 08.01.0240.003">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Conv
+ erted from text/rtf format -->\n\n<P DIR=LTR ALIGN=JUSTIFY><SPAN LANG="e
+ n-us"><B></B></SPAN><SPAN LANG="en-us"><B><FONT COLOR="#000000" FACE="Ti
+ mes New Roman">Session Chair: Xiaohong Chen (ECNU)</FONT></B></SPAN><SPA
+ N LANG="en-us"></SPAN></P>\n\n</BODY>\n</HTML>
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+UID:040000008200E00074C5B7101A82E00800000000F0E50D8EA18BD701000000000000
+ 000010000000655E37B0CC660F4DAB33084A7B562E19
+DTSTART;TZID=Asia/Shanghai:20210826T103000
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE=On line:geo:23.395867,113.
+ 223581
+SEQUENCE:0
+CONFERENCE;VALUE=URI:https://univ-cotedazur.zoom.us/j/88590353532?pwd=Rk
+ 9CT1RXWUFJUHhlMDJRSXVJWWUyQT09
+LOCATION:On line
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+DTSTAMP:20210807T082348Z
+LAST-MODIFIED:20210809T001025Z
+CREATED:20210807T073302Z
+DTEND;TZID=Asia/Shanghai:20210826T120000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DESCRIPTION:Session Chair: Xiaohong Chen (ECNU)\n\nJoin Zoom Meeting\nht
+ tps://univ-cotedazur.zoom.us/j/88590353532?pwd=Rk9CT1RXWUFJUHhlMDJRSXVJW
+ WUyQT09\n\nMeeting ID: 885 9035 3532\nPasscode: 472323\n\n10:30-11:00\nV
+ ERDS: Modeling and Verification of Finite State Systems with Discrete Ti
+ me Models by Symbolic Techniques\nWenhui Zhang\, Xue-Yang Zhu and Yulong
+  Bao\n11:00-11:30\nReasoning About Real-Time Systems in Event-B Models w
+ ith Fairness Assumptions\nChenyang Zhu\, Michael Butler\, Corina Cirstea
+  and Thai Son Hoang\n11:30-12:00\nA Timed Automata based Automatic Frame
+ work for Verifying STL Properties of Simulink Models\nMiao Tian\, Jianqi
+  Shi\, Zhe Hou\, Yanhong Huang and Shengchao Qin
+BEGIN:VALARM
+X-WR-ALARMUID:AE88CA9D-EDE4-4CF9-BCD7-FB85B0454B46
+UID:AE88CA9D-EDE4-4CF9-BCD7-FB85B0454B46
+TRIGGER:-PT15M
+X-APPLE-DEFAULT-ALARM:TRUE
+ATTACH;VALUE=URI:Chord
+ACTION:AUDIO
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:9CDB8F33-3826-4EEA-8B03-2D5415334553
+UID:9CDB8F33-3826-4EEA-8B03-2D5415334553
+TRIGGER:-PT15M
+DESCRIPTION:Reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=zh-cn:Opening
+PRIORITY:5
+CLASS:PUBLIC
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2
+ //EN">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Serv
+ er version 08.01.0240.003">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Conv
+ erted from text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="en-us"><B></B><
+ /SPAN><SPAN LANG="en-us"><B><FONT COLOR="#000000" FACE="Times New Roman"
+ >On line: (Zoom ID: 885 9035 3532\, Passcode: 472323)</FONT></B></SPAN><
+ /P>\n\n<P DIR=LTR ALIGN=JUSTIFY><SPAN LANG="en-us"></SPAN></P>\n\n</BODY
+ >\n</HTML>
+TRANSP:OPAQUE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MS-OLK-CONFTYPE:0
+UID:040000008200E00074C5B7101A82E0080000000090304AF4A08BD701000000000000
+ 0000100000009D7F67F39DDD4645A71D979385C1FBA1
+DTSTART;TZID=Asia/Shanghai:20210825T085000
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE=On line:geo:23.395867,113.
+ 223581
+SEQUENCE:0
+CONFERENCE;VALUE=URI:https://univ-cotedazur.zoom.us/j/88590353532?pwd=Rk
+ 9CT1RXWUFJUHhlMDJRSXVJWWUyQT09
+LOCATION:On line
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+DTSTAMP:20210807T082348Z
+LAST-MODIFIED:20210809T000703Z
+CREATED:20210807T072649Z
+URL;VALUE=URI:Meeting%20ID:%20885%209035%203532%0APasscode:%20472323
+DTEND;TZID=Asia/Shanghai:20210825T090000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DESCRIPTION:On line: (Zoom ID: 885 9035 3532\, Passcode: 472323)\n\n\nJo
+ in Zoom Meeting\nhttps://univ-cotedazur.zoom.us/j/88590353532?pwd=Rk9CT1
+ RXWUFJUHhlMDJRSXVJWWUyQT09\n\nMeeting ID: 885 9035 3532\nPasscode: 47232
+ 3
+BEGIN:VALARM
+X-WR-ALARMUID:11A3FB4A-CEAD-4D65-B1D9-61AE7B1D0A1A
+UID:11A3FB4A-CEAD-4D65-B1D9-61AE7B1D0A1A
+TRIGGER:-PT15M
+X-APPLE-DEFAULT-ALARM:TRUE
+ATTACH;VALUE=URI:Chord
+ACTION:AUDIO
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:CD59BA75-EA73-431E-83F5-7352B95612AB
+UID:CD59BA75-EA73-431E-83F5-7352B95612AB
+TRIGGER:-PT15M
+DESCRIPTION:Reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=zh-cn:Session 6: Requirement Engineering
+PRIORITY:5
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2
+ //EN">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Serv
+ er version 08.01.0240.003">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Conv
+ erted from text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="en-us"><B></B><
+ /SPAN><SPAN LANG="en-us"><B><FONT COLOR="#000000" FACE="Times New Roman"
+ >Session Chair: Guoqiang Li (SJTU)</FONT></B></SPAN></P>\n\n<P DIR=LTR A
+ LIGN=JUSTIFY><SPAN LANG="en-us"></SPAN></P>\n\n</BODY>\n</HTML>
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+UID:040000008200E00074C5B7101A82E00800000000A03DD4B5A18BD701000000000000
+ 00001000000046A28D73958B4747BF023E153F6948C5
+DTSTART;TZID=Asia/Shanghai:20210826T160000
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE=On line:geo:23.395867,113.
+ 223581
+SEQUENCE:0
+CONFERENCE;VALUE=URI:https://univ-cotedazur.zoom.us/j/88590353532?pwd=Rk
+ 9CT1RXWUFJUHhlMDJRSXVJWWUyQT09
+LOCATION:On line
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+DTSTAMP:20210807T082348Z
+LAST-MODIFIED:20210809T001059Z
+CREATED:20210807T073418Z
+DTEND;TZID=Asia/Shanghai:20210826T173000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DESCRIPTION:Session Chair: Guoqiang Li (SJTU)\n\nJoin Zoom Meeting\nhttp
+ s://univ-cotedazur.zoom.us/j/88590353532?pwd=Rk9CT1RXWUFJUHhlMDJRSXVJWWU
+ yQT09\n\nMeeting ID: 885 9035 3532\nPasscode: 472323\n\n16:00-16:30\nGen
+ erating Test Cases from Requirements: A Case Study in Railway Control Sy
+ stem Domain\nHanyue Zheng\, Jincao Feng\, Weikai Miao and Geguang Pu\n16
+ :30-17:00\nRE2B: enhancing correctness of both requirements and design m
+ odels by integrating EBRE and Event-B\nShiling Feng\, Xiaohong Chen\, Qi
+ n Li and Yongxin Zhao\n17:00-17:30\nEliciting Timing Requirements for Cy
+ ber-Physical Systems: a Multiform Time based Approach\nJiajia Yang\, Xia
+ ohong Chen and Ling Yin
+BEGIN:VALARM
+X-WR-ALARMUID:7A600977-BDDE-4875-9F65-D10D817D076F
+UID:7A600977-BDDE-4875-9F65-D10D817D076F
+TRIGGER:-PT15M
+X-APPLE-DEFAULT-ALARM:TRUE
+ATTACH;VALUE=URI:Chord
+ACTION:AUDIO
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:53CD4C1D-1185-45D3-9067-4B233FCFFD43
+UID:53CD4C1D-1185-45D3-9067-4B233FCFFD43
+TRIGGER:-PT15M
+DESCRIPTION:Reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=zh-cn:Session 2: Program Analysis II
+PRIORITY:5
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2
+ //EN">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Serv
+ er version 08.01.0240.003">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Conv
+ erted from text/rtf format -->\n\n<P DIR=LTR ALIGN=JUSTIFY><SPAN LANG="e
+ n-us"><B></B></SPAN><SPAN LANG="en-us"><B><FONT COLOR="#000000" FACE="Ti
+ mes New Roman">Session Chair: Xueyang Zhu (ISCAS)</FONT></B></SPAN><SPAN
+  LANG="en-us"></SPAN></P>\n\n</BODY>\n</HTML>
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+UID:040000008200E00074C5B7101A82E008000000007079603CA18BD701000000000000
+ 0000100000002DB39BFCE097104EA46A420E9C640FDC
+DTSTART;TZID=Asia/Shanghai:20210825T140000
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE=On line:geo:23.395867,113.
+ 223581
+SEQUENCE:0
+CONFERENCE;VALUE=URI:https://univ-cotedazur.zoom.us/j/88590353532?pwd=Rk
+ 9CT1RXWUFJUHhlMDJRSXVJWWUyQT09
+LOCATION:On line
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+DTSTAMP:20210807T082348Z
+LAST-MODIFIED:20210809T000959Z
+CREATED:20210807T073047Z
+DTEND;TZID=Asia/Shanghai:20210825T160000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DESCRIPTION:Session Chair: Xueyang Zhu (ISCAS)\n\nJoin Zoom Meeting\nhtt
+ ps://univ-cotedazur.zoom.us/j/88590353532?pwd=Rk9CT1RXWUFJUHhlMDJRSXVJWW
+ UyQT09\n\nMeeting ID: 885 9035 3532\nPasscode: 472323\n\n14:00-14:30\nDy
+ namic Verification of C/C++11 Concurrency over Multi Copy Atomics\nSanja
+ na Singh\, Divyanjali Sharma and Subodh Sharma\n14:30-15:00 An Abstract 
+ Domain to Infer Linear Absolute Value Equalities\nLiqian Chen\, Banghu Y
+ in\, Dengping Wei and Ji Wang\n15:00-15:30 Discovering Properties about 
+ Arrays via Path Dependence Analysis\nQianqian Zhang\, Yao Zhang\, Xiaoho
+ ng Li and Bin Wu\n15:30-16:00 Inferring Loop Invariants for Multi-Path L
+ oops\nYingwen Lin\, Yao Zhang\, Sen Chen\, Fu Song\, Xiaofei Xie\, Xiaoh
+ ong Li and Lintan Sun\n
+BEGIN:VALARM
+X-WR-ALARMUID:696559B2-920A-434B-8532-103200CD6D06
+UID:696559B2-920A-434B-8532-103200CD6D06
+TRIGGER:-PT15M
+X-APPLE-DEFAULT-ALARM:TRUE
+ATTACH;VALUE=URI:Chord
+ACTION:AUDIO
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:33885547-CD6F-441E-92EC-8B948C6D5C35
+UID:33885547-CD6F-441E-92EC-8B948C6D5C35
+TRIGGER:-PT15M
+DESCRIPTION:Reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=zh-cn:Session 3: System modeling and verification I
+PRIORITY:5
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+TRANSP:OPAQUE
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2
+ //EN">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Serv
+ er version 08.01.0240.003">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Conv
+ erted from text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="en-us"><B></B><
+ /SPAN><SPAN LANG="en-us"><B><FONT COLOR="#000000" FACE="Times New Roman"
+ >Session Chair: Liqian Chen (NUDT)</FONT></B></SPAN></P>\n\n<P DIR=LTR A
+ LIGN=JUSTIFY><SPAN LANG="en-us"></SPAN></P>\n\n</BODY>\n</HTML>
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+UID:040000008200E00074C5B7101A82E0080000000040D45454A18BD701000000000000
+ 0000100000007D43CECA84B36542B9A67C758189316F
+DTSTART;TZID=Asia/Shanghai:20210825T163000
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE=On line:geo:23.395867,113.
+ 223581
+SEQUENCE:0
+CONFERENCE;VALUE=URI:https://univ-cotedazur.zoom.us/j/88590353532?pwd=Rk
+ 9CT1RXWUFJUHhlMDJRSXVJWWUyQT09
+LOCATION:On line
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+DTSTAMP:20210807T082348Z
+LAST-MODIFIED:20210809T001012Z
+CREATED:20210807T073128Z
+DTEND;TZID=Asia/Shanghai:20210825T183000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DESCRIPTION:Session Chair: Liqian Chen (NUDT)\n\nJoin Zoom Meeting\nhttp
+ s://univ-cotedazur.zoom.us/j/88590353532?pwd=Rk9CT1RXWUFJUHhlMDJRSXVJWWU
+ yQT09\n\nMeeting ID: 885 9035 3532\nPasscode: 472323\n\n16:30-17:00\nPar
+ ametric Spatio-temporal Modeling and Safety Verifying for T2T-CBTC Syste
+ ms\nQianzhu Zhao\, Jing Liu and Xiang Chen\n17:00-17:30 Verification of 
+ RoboSim Models Using UPPAAL\nMingzhuo Zhang\, Dehui Du\, Augusto Sampaio
+ \, Ana Cavalcanti\, Madiel Conserva Filho and Menghan Zhang\n17:30-18:00
+  A Formal Engineering Approach to Product Family Modeling\nXi Wang\, Rid
+ ha Khedri and Weikai Miao\n18:00-18:30 Encoding Induction Proof into Daf
+ ny\nHongjian Jiang\, Yongjian Li\, Sijun Tan and Yongxin Zhao\n\n\n
+BEGIN:VALARM
+X-WR-ALARMUID:C9773806-21BD-480F-981B-9A568FF00321
+UID:C9773806-21BD-480F-981B-9A568FF00321
+TRIGGER:-PT15M
+X-APPLE-DEFAULT-ALARM:TRUE
+ATTACH;VALUE=URI:Chord
+ACTION:AUDIO
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:21B9BE6A-DA06-43C3-9CFD-A66550E413B3
+UID:21B9BE6A-DA06-43C3-9CFD-A66550E413B3
+TRIGGER:-PT15M
+DESCRIPTION:Reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
